@@ -36,34 +36,58 @@ a {
   background-color: #1f2937;
 }
 
+.menu {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 .logo {
   color: #f9faf8;
   font-size: 24px;
   font-weight: 900;
 }
 
-.menu {
-  margin: 50px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .links ul {
   font-size: 18px;
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .header-content {
   margin: 120px 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 2rem;
 }
 
 .header-content div {
   flex: 1;
+}
+
+.signup h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.signup p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #3a83f6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px;
+  margin-top: 12px;
 }
 
 .placeholder-image {
