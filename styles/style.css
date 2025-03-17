@@ -98,12 +98,6 @@ a {
 }
 
 /* Information */
-.figures {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
 .information h2 {
   font-size: 36px;
   font-weight: 900;
@@ -112,13 +106,9 @@ a {
   margin: 2rem 0;
 }
 
-.figure {
-  width: 150px;
-}
-
 .box {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 3px solid #84b1f8;
   border-radius: 8px;
 }
