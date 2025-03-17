@@ -21,12 +21,20 @@ a {
   text-decoration: none;
 }
 
+/* Container size and position*/
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
 /* Header */
 
 .header {
   color: #fff;
   background-color: #1f2937;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
