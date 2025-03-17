@@ -25,7 +25,7 @@ a {
 /* Container size and position*/
 
 .container {
-  width: 75vw;
+  width: 55vw;
   margin: 0 auto;
 }
 
@@ -36,33 +36,58 @@ a {
   background-color: #1f2937;
 }
 
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
 .menu {
-  margin: 24px 0 50px;
+  margin: 50px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .links ul {
+  font-size: 18px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .header-content {
+  margin: 120px 0;
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.header-content div {
+  flex: 1;
+}
+
+.placeholder-image {
+  background-color: #6c757d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Information */
 .figures {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* Quote */
 .quote {
-  background-color: #e5e7eb;
+  background-color: #e4e7ea;
 }
 
 /* Call to action */
 .call-to-action-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* Footer */
