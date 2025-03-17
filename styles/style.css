@@ -101,6 +101,7 @@ a {
 .figures {
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .information h2 {
@@ -112,7 +113,7 @@ a {
 }
 
 .figure {
-  width: 200px;
+  width: 150px;
 }
 
 .box {
