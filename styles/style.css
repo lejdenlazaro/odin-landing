@@ -111,6 +111,10 @@ a {
   margin: 2rem 0;
 }
 
+.figure {
+  width: 200px;
+}
+
 .box {
   width: 100px;
   height: 100px;
