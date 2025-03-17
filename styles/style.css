@@ -17,11 +17,16 @@ ul {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 /* Header */
+
+.header {
+  color: #fff;
+  background-color: #1f2937;
+}
 .menu {
   display: flex;
   justify-content: space-between;
@@ -41,8 +46,17 @@ a {
 }
 
 /* Quote */
+.quote {
+  background-color: #e5e7eb;
+}
 
-/* Footer */
+/* Call to action */
 .call-to-action-container {
   display: flex;
+}
+
+/* Footer */
+.footer {
+  color: #fff;
+  background-color: #1f2937;
 }
