@@ -159,6 +159,32 @@ a {
   flex-wrap: wrap;
 }
 
+.card {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  margin: 60px auto;
+  padding: 30px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button {
+  margin: 0 auto;
+}
+
+.signup-button button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 3px solid #f9faf8;
+  border-radius: 8px;
+  padding: 8px 32px;
+}
+
 /* Footer */
 .footer {
   color: #fff;
