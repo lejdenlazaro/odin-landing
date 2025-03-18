@@ -135,6 +135,24 @@ a {
   background-color: #e4e7ea;
 }
 
+.quote-margin {
+  padding: 100px 50px;
+}
+
+.quote em {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* Call to action */
 .call-to-action-container {
   display: flex;
