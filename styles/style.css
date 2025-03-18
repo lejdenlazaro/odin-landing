@@ -190,3 +190,8 @@ a {
   color: #fff;
   background-color: #1f2937;
 }
+
+.container p {
+  text-align: center;
+  padding: 24px 0;
+}
